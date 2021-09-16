@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         accentColor: Colors.pink,
+        fontFamily: 'Quicksand',
       ),
       home: MyHomePage(),
     );

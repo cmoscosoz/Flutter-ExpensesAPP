@@ -7,7 +7,6 @@ class Chart extends StatelessWidget {
   final List<Transaction> recentTransations;
 
   Chart(this.recentTransations);
-
   List<Map<String, Object>> get groupedTransactionValues {
     return List.generate(
       7,
@@ -42,6 +41,7 @@ class Chart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('build() chart.dar');
     return Card(
       elevation: 6,
       margin: EdgeInsets.all(20),
